@@ -1,0 +1,48 @@
+nav {
+  padding: 25px 0 0 0;
+  height: 100px;
+
+}
+
+.nav > li > a {
+  font-size: 14px;
+  font-family:  Work Sans Bold, sans-serif;
+  color: $color-nav;
+  text-transform: uppercase;
+
+}
+
+.navbar-brand {
+  img {
+    height: 31px;
+  }
+  padding: 10px 15px;
+}
+.nav>li>a:focus, .nav>li>a:hover {
+  background-color: rgba(0,0,0, 0);
+  color: $white;
+}
+.navbar-toggle {
+  background-color: $color-nav ;
+  .icon-bar{
+    background-color: $black;
+    height: 1px;
+  }
+  .nav>li>a:hover {
+    background-color: rgba(0,0,0, 0.5);
+  }
+
+
+}
+.in {
+  z-index: 100;
+  position: absolute;
+  width: 100%;
+  background-color: rgba(0,0,0, 0.7);
+  .nav>li>a {
+    color: $white;
+  }
+  .nav>li>a:hover{
+    //color: $color-base;
+  }
+}
