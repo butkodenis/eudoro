@@ -89,6 +89,11 @@ button.learn, button.order {
   margin: 40px auto 0;
   text-transform: uppercase;
 }
+button.order:hover, button.learn:hover {
+  background-color: #a4a8bc;
+  color: #ffffff;
+  transition: all 0.5s;
+}
 
 button.btnmail {
   font-family: 'Oswald', sans-serif;
@@ -112,6 +117,12 @@ button.btnmail {
 
 
 
+}
+.hidden{
+  opacity:0;
+}
+.visible{
+  opacity:1;
 }
 //.fix {
 //  background-color: $white;
