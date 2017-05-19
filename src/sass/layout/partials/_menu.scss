@@ -22,6 +22,7 @@ nav {
     float: none;
     display: inline-block;
   }
+  animation: zoomIn 1s;
 }
 
 //.navbar-brand {
@@ -54,8 +55,8 @@ nav {
 //  .nav>li>a {
 //    color: $white;
 //  }
-  .nav>li>a:hover + h2 {
+  .nav>li>a:hover  {
     color: $color-span;
-    display: none;
+    //display: none;
   }
 //}

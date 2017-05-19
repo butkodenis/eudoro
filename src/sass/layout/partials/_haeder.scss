@@ -2,7 +2,7 @@ header {
   padding: 25% 0 65px 0 ;
   //background-color: $color-bgr-header;
   color: $white;
-  background: url("/images/banner1.jpg") no-repeat center center ;
+  background: url("/images/banner1.jpg") no-repeat center center black;
   height: 100vh;
   //.header_mask {
   //  height: 100vh;
@@ -15,6 +15,13 @@ header {
   //h6 {
   //  margin: 32vh 0 0 0;
   //}
+  h1 {
+    animation: flipInY 2s ease-out;
+  }
+  p {
+    animation: flipInY 1.5s;
+  }
+
 
 
 button.more{
