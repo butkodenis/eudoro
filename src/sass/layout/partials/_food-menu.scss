@@ -1,0 +1,24 @@
+#food-menu{
+  padding: 120px 0 150px;
+  p:first-child {
+   clear: both;
+  }
+  .food-menu-block:hover + .food-menu-block_hide {
+      display: block;
+    }
+
+  .food-menu-block_hide {
+    display: none;
+    p {
+      font-size: 18px ;
+    }
+  }
+}
+
+span.line {
+  width: 10%;
+  height: 1px;
+  background: #e59205;
+  float: left;
+  margin-top: 65px;
+}
