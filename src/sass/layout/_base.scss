@@ -109,24 +109,17 @@ button.btnmail {
 }
 .reset_padding {
   padding-right: 0;
-  padding-left:  0;
-  .col-lg-4, .col-lg-8 {
-    padding-right: 0;
-    padding-left:  0;
+  padding-left: 0;
+
 }
 
 
 
-}
-.hidden{
-  opacity:0;
-}
-.visible{
-  opacity:1;
-}
+
+
 .sticky{
   height: 100px;
-  background-color:  rgba(0,0,0 1);
+  background-color:  rgba(0,0,0, .9);
 }
 //.fix {
 //  background-color: $white;
