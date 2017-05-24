@@ -1,39 +1,60 @@
+@media all and (max-width: 1200px) {
+  span.line {
+    display: none;
+  }
+  h2 {
+    font-size: 62px;
+    float: none;
+  }
+  //menu
+  .nav > li {
+    margin: 0 20px;
+  }
+}
+
 @media all and (max-width: 992px) {
+
+  h2 {
+    font-size: 52px;
+  }
+  .nav > li {
+    margin: 0 10px;
+  }
+  .nav > li > a{
+    padding: 5px 5px;
+  }
+
+  #checkour img{
+    height: 300px;
+  }
+  #checkour .checkuor_left{
+    min-height: 300px;
+    h2 {
+      padding: 20px;
+    }
+  }
 
 }
 
 @media all and (max-width: 767px) {
-  .contact {
-    .form{
-      margin: 0 20px;
-    }
-  }
-  .aboutus {
-    .client-review {
-      width: 60%;
-    }
-    .client-avatar{
-      margin: 0 20px 0 0;
-    }
-  }
-  header{
-    .nav ul li {
-      padding: 0 0;
-      a{
-        padding: 10px 0px;
-      }
-    }
-  }
-  footer {
-    ul {
-      li {
-        width: 100%;
-      }
-    }
-  }
 
+  h2 {
+    font-size: 52px;
+  }
+  #checkour .checkuor_left{
+    min-height: 230px;
+
+  }
+  #food-menu .filter{
+    padding: 15px 10px;
+  }
+  #logo {
+    display: none;
+  }
+  .nav > li {
+    width: 100%;
+  }
 }
-
 @media all and (max-width: 320px) {
 
 }
