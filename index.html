@@ -29,10 +29,10 @@
 
         </div>
         <div id="navbar" class="navbar-collapse collapse">
-            <ul class="nav navbar-nav navbar-left">
+            <ul class="nav navbar-nav">
                 <li><a href="#food-menu">menu</a></li>
                 <li><a href="#checkour">our story</a></li>
-                <li><a href="#"><img src="images/logo.png"></a></li>
+                <li><a href="#"><img id="logo" src="images/logo.png"></a></li>
                 <li><a href="#service">offer</a></li>
                 <li><a href="#news">contact</a></li>
             </ul>
@@ -63,23 +63,27 @@
                     tempor incididunt ut labore et dolore magna aliqua.</p>
 
             </div>
-            <div class="col-lg-12">
-                <ul class="wow bounceInLeft">
-                    <li><a href="#" id="filtr-1" class="filter" data-filter=".filtr-1 ">deserts</a></li>
-                    <li><a href="#" id="filtr-2" class="filter" data-filter=".filtr-2">meats</a></li>
-                    <li><a href="#" id="filtr-3" class="filter" data-filter=".filtr-3">salads</a></li>
+            <div  class="col-lg-12 wow bounceInLeft ">
 
-                </ul>
+                <button  id="filtr-1" class="order filter" data-filter=".filtr-1 ">deserts </button>
+                <button  id="filtr-2" class="order filter" data-filter=".filtr-2 ">meats </button>
+                <button  id="filtr-3" class="order filter" data-filter=".filtr-3 ">salads </button>
+                <!--<ul class="wow bounceInLeft">-->
+                    <!--<li><a href="#" id="filtr-1" class="filter" data-filter=".filtr-1 ">deserts</a></li>-->
+                    <!--<li><a href="#" id="filtr-2" class="filter" data-filter=".filtr-2">meats</a></li>-->
+                    <!--<li><a href="#" id="filtr-3" class="filter" data-filter=".filtr-3">salads</a></li>-->
+
+                <!--</ul>-->
             </div>
 
         </div>
     </div>
     <div  id="food-menu-blocks" class="container-fluid wow zoomIn ">
 
-        <div class="row">
+        <div  class="row">
             <div class="col-lg-15  mix filtr-1">
                 <div class="food-menu-block">
-                    <img src="images/item1.png">
+                    <img id="img-menu-1" src="images/item1.png">
                     <button class="learn">learn more</button>
                     <div class="food-menu-block_hide">
                         <h1><span>22$</span> </h1>
@@ -91,7 +95,7 @@
             </div>
             <div class="col-lg-15  mix filtr-1">
                 <div class="food-menu-block">
-                    <img src="images/item2.png">
+                    <img id="img-menu-2" src="images/item2.png">
                     <button class="learn">learn more</button>
                     <div class="food-menu-block_hide">
                         <h1><span>22$</span> </h1>
@@ -103,7 +107,7 @@
             </div>
             <div class="col-lg-15  mix filtr-2">
                 <div class="food-menu-block">
-                    <img src="images/item3.png">
+                    <img id="img-menu-3" src="images/item3.png">
                     <button class="learn">learn more</button>
                     <div class="food-menu-block_hide">
                         <h1><span>22$</span> </h1>
@@ -115,7 +119,7 @@
             </div>
             <div class="col-lg-15  mix filtr-3">
                 <div class="food-menu-block">
-                    <img src="images/item4.png">
+                    <img id="img-menu-4" src="images/item4.png">
                     <button class="learn">learn more</button>
                     <div class="food-menu-block_hide">
                         <h1><span>22$</span> </h1>
@@ -127,7 +131,7 @@
             </div>
             <div class="col-lg-15  mix filtr-3">
                 <div class="food-menu-block">
-                    <img id="img" src="images/item3.png">
+                    <img id="img-menu-5" id="img" src="images/item3.png">
                     <button class="learn">learn more</button>
                     <div class="food-menu-block_hide">
                         <h1><span>22$</span> </h1>
@@ -165,7 +169,7 @@
 
             </div>
         </div>
-        <div id="filter-block" class="row">
+        <div class="row">
             <div class="col-lg-4">
                 <div class="service-block wow zoomIn">
                     <img src="images/icon1.png">
@@ -229,15 +233,11 @@
 </section>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="js/wow.min.js"></script>
-<script>
-    document.getElementsByTagName("a").addEventListener("click", function(event){
-        event.preventDefault()
-    });
-</script>
+
 <script src="js/jquery.mixitup.js"></script>
 <script src="js/main.js"></script>
 
-});
+
 </body>
 
 </html>

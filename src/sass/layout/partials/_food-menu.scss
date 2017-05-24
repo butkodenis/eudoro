@@ -3,6 +3,22 @@
   p:first-child {
    clear: both;
   }
+  .filter {
+    display: inline-block;
+    font-family: 'Oswald', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: #fff;
+    outline: 0;
+    border: 1px solid #e59205;
+    background-color: #e59205;
+    padding: 15px 30px;
+    //display: block;
+    //float: left;
+    margin: 75px 10px 0;
+    text-transform: uppercase;
+    text-align: center;
+  }
   #food-menu-blocks:hover .food-menu-block {
     min-height: 722px;
   }
