@@ -2,7 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="94418872-cb05-4e2e-8cfd-c49559ac93af" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/jquery.mixitup.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/banner.jpg" afterPath="$PROJECT_DIR$/images/banner.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/chekout.jpg" afterPath="$PROJECT_DIR$/images/chekout.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/icon1.png" afterPath="$PROJECT_DIR$/images/icon1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/icon2.png" afterPath="$PROJECT_DIR$/images/icon2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/icon3.png" afterPath="$PROJECT_DIR$/images/icon3.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/icon4.png" afterPath="$PROJECT_DIR$/images/icon4.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/icon5.png" afterPath="$PROJECT_DIR$/images/icon5.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/icon6.png" afterPath="$PROJECT_DIR$/images/icon6.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/logo.png" afterPath="$PROJECT_DIR$/images/logo.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -393,12 +402,12 @@
       <workItem from="1495085983443" duration="38471000" />
       <workItem from="1495431998300" duration="1571000" />
       <workItem from="1495526273360" duration="45411000" />
-      <workItem from="1495711482895" duration="1280000" />
+      <workItem from="1495711482895" duration="1590000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="103264000" />
+    <option name="totallyTimeSpent" value="103574000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-3846" y="1" width="1932" height="1045" extended-state="0" />
