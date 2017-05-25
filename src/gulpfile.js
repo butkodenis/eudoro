@@ -12,7 +12,7 @@ var gulp = require('gulp'),
     rename = require('gulp-rename'), //
     notify = require('gulp-notify'),
     watch = require('gulp-watch'), // автоотследивание изминений
-    autoprefixer = require('gulp-autoprefixer'),
+
     imageop = require('gulp-image-optimization'), // минификатор картинок
     image = require('gulp-image'),         // минификатор картинок
     imagemin = require('gulp-imagemin'), // минификатор картинок
@@ -33,12 +33,22 @@ gulp.task('browser-sync', function() {
 
 
 gulp.task('styles', function () {
+    gulp.src('sass/style.scss')
+        .pipe(sourcemaps.init())
+        .pipe(sass())
+        .pipe(autoprefixer())
+        // .pipe(minify())
+        // .pipe(rename({suffix: '.min'}))
+
+        .pipe(gulp.dest('../css'))
+        .pipe(browserSync.stream())
+        .pipe(notify('Style task completed'))
 });
 gulp.task('scripts', function() {
-    gulp.src('src/js/main.js')
+    gulp.src('../src/js/main.js')
         .pipe(uglify())
         .pipe(rename({suffix: '.min'}))
-        .pipe(gulp.dest('../js'))
+        .pipe(gulp.dest('../js/'))
         .pipe(browserSync.stream())
         .pipe(notify('Scripts task completed'))
 });
@@ -49,16 +59,7 @@ gulp.task('default', ['browser-sync'], function() {
     gulp.watch("../**/*.html").on('change', browserSync.reload);
 });
 
-gulp.src('sass/style.scss')
-    .pipe(sourcemaps.init())
-    .pipe(sass())
-    .pipe(autoprefixer())
-    // .pipe(minify())
-    // .pipe(rename({suffix: '.min'}))
 
-    .pipe(gulp.dest('../css'))
-    .pipe(browserSync.stream())
-    .pipe(notify('Style task completed'))
 
 gulp.task('static-server', function () {
     var file = new staticServer.Server('./../', { cache: 600 });
