@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="94418872-cb05-4e2e-8cfd-c49559ac93af" name="Default" comment="" />
+    <list default="true" id="94418872-cb05-4e2e-8cfd-c49559ac93af" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/jquery.mixitup.js" afterPath="" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -391,12 +393,12 @@
       <workItem from="1495085983443" duration="38471000" />
       <workItem from="1495431998300" duration="1571000" />
       <workItem from="1495526273360" duration="45411000" />
-      <workItem from="1495711482895" duration="1111000" />
+      <workItem from="1495711482895" duration="1280000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="103095000" />
+    <option name="totallyTimeSpent" value="103264000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-3846" y="1" width="1932" height="1045" extended-state="0" />
