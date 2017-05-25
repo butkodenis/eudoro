@@ -52,8 +52,8 @@
           <file leaf-file-name="gulpfile.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/gulpfile.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="349">
-                  <caret line="40" column="23" lean-forward="false" selection-start-line="40" selection-start-column="23" selection-end-line="40" selection-end-column="23" />
+                <state relative-caret-position="468">
+                  <caret line="47" column="16" lean-forward="false" selection-start-line="47" selection-start-column="16" selection-end-line="47" selection-end-column="16" />
                   <folding />
                 </state>
               </provider>
@@ -394,12 +394,12 @@
       <workItem from="1495085983443" duration="38471000" />
       <workItem from="1495431998300" duration="1571000" />
       <workItem from="1495526273360" duration="45411000" />
-      <workItem from="1495711482895" duration="461000" />
+      <workItem from="1495711482895" duration="1022000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="102445000" />
+    <option name="totallyTimeSpent" value="103006000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-3846" y="1" width="1932" height="1045" extended-state="0" />
@@ -990,8 +990,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/gulpfile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="40" column="23" lean-forward="false" selection-start-line="40" selection-start-column="23" selection-end-line="40" selection-end-column="23" />
+        <state relative-caret-position="468">
+          <caret line="47" column="16" lean-forward="false" selection-start-line="47" selection-start-column="16" selection-end-line="47" selection-end-column="16" />
           <folding />
         </state>
       </provider>

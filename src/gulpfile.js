@@ -48,7 +48,7 @@ gulp.task('scripts', function() {
     gulp.src('../src/js/main.js')
         .pipe(uglify())
         .pipe(rename({suffix: '.min'}))
-        .pipe(gulp.dest('../js/'))
+        .pipe(gulp.dest('../js'))
         .pipe(browserSync.stream())
         .pipe(notify('Scripts task completed'))
 });
