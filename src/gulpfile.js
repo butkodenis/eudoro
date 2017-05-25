@@ -37,8 +37,8 @@ gulp.task('styles', function () {
         .pipe(sourcemaps.init())
         .pipe(sass())
         .pipe(autoprefixer())
-        // .pipe(minify())
-        // .pipe(rename({suffix: '.min'}))
+        .pipe(minify())
+        .pipe(rename({suffix: '.min'}))
 
         .pipe(gulp.dest('../css'))
         .pipe(browserSync.stream())
