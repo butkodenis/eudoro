@@ -37,24 +37,47 @@
 }
 
 @media all and (max-width: 767px) {
+  header {
+    padding-top: 140px;
+    button.more {
+      font-size: 18px;
+      padding: 3px;
+    }
+  }
+  #food-menu, #service{
+    padding: 80px 0 50px;
+  }
+  #service .service-block {
+    padding-top: 80px;
+  }
   .navbar-brand {
     display: inline-block;
     > img {
       height: 30px;
    }
   }
-  .nav >li :nth-child(3) {
+  #logo-li {
     display: none;
   }
-  h2 {
-    font-size: 52px;
+  h1 {
+    font-size: 46px;
+    padding-bottom: 30px;
   }
+  h2 {
+    font-size: 42px;
+    padding-bottom: 40px;
+  }
+  p{
+    font-size: 18px;
+  }
+
   #checkour .checkuor_left{
     min-height: 230px;
 
   }
   #food-menu .filter{
-    padding: 15px 10px;
+    padding: 5px ;
+    font-size: 18px;
   }
 
   .nav > li {

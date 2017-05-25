@@ -34,29 +34,10 @@
 
 
 
-        // фильтрация блоков портфолио  ( незабыть .mix { display: none;})
-        //
-        // $(function(){
-        //     $("#filter-block").mixItUp({
-        //
-        //     });
-        // });
-
-        //   show more
-
-        // size_li = $("#filter-block > div").size();
-        // x=9;
-        // console.log(size_li);
-        // $('#filter-block  > div:lt('+x+')').show();
-        // $('#loadMore').click(function () {
-        //     x = (x+3 <= size_li) ? x+3 : size_li;
-        //     $('#filter-block > div:lt('+x+')').show();
-        // });
-
 
 
         // изминение при прокрутке nav
-        if ($('#service').length > 0) {
+        if ($('.nav').length > 0) {
             (function () {
                 $(window).on("scroll", function() {
                     if ($(window).scrollTop() > 50) $('.navbar').addClass('sticky') && $('#logo').addClass('.logo_sm');
